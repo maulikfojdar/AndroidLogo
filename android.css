@@ -1,0 +1,109 @@
+div {margin: o; padding: 0;}
+div div {background: #A4CA39; position: relative;}
+
+.android{
+	height: 404px; width: 334px;
+	margin: 100px auto;
+}
+.head{
+	width: 220px; height: 100px;
+	top: 32px;
+	margin:0 auto;
+	border-radius: 110px 110px 0 0;
+	-moz-border-radius: 110px 110px 0 0;
+	-webkit-border-radius: 110px 110px 0 0;
+	
+	-webkit-transition: all 0.1s ease-in;
+}
+
+.l_eye,  .r_eye{
+width: 20px;
+height:20px;
+background:white;
+position:absolute;
+top:42px;
+border-radius:10px;
+}
+
+.l_eye{
+left:50px;
+}
+
+.r_eye{
+right:50px;
+}
+
+.l_ant, .r_ant {
+width:8px;
+height:50px;
+border-radius:4px;
+position:absolute;
+top:-30px
+}
+
+.l_ant{
+left:50px;
+transform: rotate(-30deg);
+}
+
+.r_ant{
+right:50px;
+transform: rotate(30deg);
+}
+
+.body{
+width:220px;
+height:180px;
+margin:0 auto;
+margin-top:40px;
+border-radius: 0 0 30px 30px;
+}
+
+.l_hand, .r_hand{
+width:50px;
+height:140px;
+position:absolute;
+}
+
+.l_hand{
+left:-60px;
+border-radius:25px;
+}
+
+.r_hand{
+right:-60px;
+border-radius:25px;
+}
+
+.l_leg, .r_leg{
+width: 50px;
+height:100px;
+position:absolute;
+border-radius: 0 0 25px 25px;
+}
+
+.l_leg{
+left:45px;
+bottom:-80px;
+}
+
+.r_leg{
+right:45px;
+bottom:-80px;
+}
+
+.head:hover {
+	-webkit-transform: rotate(-5deg) translate(-4px, -8px);
+	-transform: rotate(-5deg) translate(-4px, -8px);
+	-moz-transform: rotate(-5deg) translate(-4px, -8px);
+}
+.l_hand:hover{
+	-webkit-transform: rotate(15deg) translate(-14px, 0);
+	-transform: rotate(15deg) translate(-14px, 0);
+	-moz-transform: rotate(15deg) translate(-14px, 0);
+}
+.r_hand:hover{
+	-webkit-transform: rotate(-30deg) translate(30px, 0);
+	-transform: rotate(-30deg) translate(30px, 0);
+	-moz-transform: rotate(-30deg) translate(30px, 0);
+}
