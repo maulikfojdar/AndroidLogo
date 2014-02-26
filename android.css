@@ -43,12 +43,16 @@ top:-30px
 
 .l_ant{
 left:50px;
-transform: rotate(-30deg);
+-webkit-transform: rotate(-30deg);
+-tranform: rotate(-30deg);
+-moz-transform: rotate(-30deg);
 }
 
 .r_ant{
 right:50px;
-transform: rotate(30deg);
+-webkit-transform: rotate(30deg);
+-tranform: rotate(30deg);
+-moz-transform: rotate(30deg);
 }
 
 .body{
@@ -98,12 +102,18 @@ bottom:-80px;
 	-moz-transform: rotate(-5deg) translate(-4px, -8px);
 }
 .l_hand:hover{
-	-webkit-transform: rotate(15deg) translate(-14px, 0);
-	-transform: rotate(15deg) translate(-14px, 0);
-	-moz-transform: rotate(15deg) translate(-14px, 0);
+	-webkit-transform: rotate(30deg) translate(-30px, 0);
+	-transform: rotate(30eg) translate(-30px, 0);
+	-moz-transform: rotate(30deg) translate(-30px, 0);
+	-webkit-transition-duration: 0.4s;
+	-transition-duration: 0.4s;
+	-moz-transition-duration: 0.4s;
 }
 .r_hand:hover{
 	-webkit-transform: rotate(-30deg) translate(30px, 0);
 	-transform: rotate(-30deg) translate(30px, 0);
 	-moz-transform: rotate(-30deg) translate(30px, 0);
+	-webkit-transition: 0.4s ease;
+	-transition: 0.4s ease;
+	-moz-transition: 0.4s ease;
 }
